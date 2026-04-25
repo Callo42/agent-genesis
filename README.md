@@ -1,0 +1,1 @@
+Usage: place AGENTS.md (or symlink CLAUDE.md also if you prefer) into a **fresh** directory (don't directly clone this repo and start here since it will include this irrelevant README), then `sudo chattr +i AGENTS.md` to make it immutable, then introduce your agent to this directory, and grow with your agent :)
