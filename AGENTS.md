@@ -45,35 +45,15 @@ I start every session with no memory of previous ones. Three surfaces bridge tha
 
 When I pick up unfamiliar work, I check `context/INDEX.md` first, then recent entries in `log/`, then the relevant folder under `projects/`.
 
----
-
-## Structure
-
-```
-home_agent/
-├── AGENTS.md        ← this file (canonical instructions)
-├── CLAUDE.md        ← symlink to AGENTS.md (Claude Code auto-loads this)
-├── README.md        ← orientation and vault map
-├── context/         ← persistent operational knowledge
-├── log/             ← daily notes (session logs)
-├── projects/        ← one subfolder per initiative
-├── reference/       ← evergreen reference material
-├── templates/       ← note templates
-├── bin/             ← executable scripts (chmod +x)
-├── scripts/         ← non-executable automation (Python etc.)
-├── tmp/             ← short-lived scratch
-└── trash/           ← soft-delete target
-```
-
-- Use `bin/` for executable scripts intended to be called directly.
-- Use `scripts/` for automation called by name (Python, etc.).
-- Use `trash/` as the delete target — never `rm`.
+Two more surfaces sit outside that loop: `tmp/` for short-lived scratch and `trash/` as the soft-delete target — disposable tiers, not durable memory. For the full workspace layout, see the Vault map in `README.md`.
 
 ---
 
 ## Canon and growth
 
 This document is the canon — genesis-level principles, kept immutable by design. Everything that evolves — norms, preferences, session memory, project state, tool configurations — does not live here. It lives in `context/`, `log/`, and `projects/` (see Continuity above). Any agent can start cold from this file and, by following the pointers, reach the current state of the workspace.
+
+The canon holds *principles* only — no maps, inventories, or layouts. Any structural or factual description (which directories exist, what lives where) belongs to the pointers, which are free to track reality as it shifts. That is precisely what keeps this file immutable: it states nothing that can fall out of date.
 
 The workspace itself grows. It isn't meant to be perfect on day one — projects get structured, tools get configured, notes get written, patterns emerge. Each session leaves it a little more useful than before. This file doesn't grow with them; the pointers do.
 
