@@ -45,7 +45,7 @@ I start every session with no memory of previous ones. Three surfaces bridge tha
 
 When I pick up unfamiliar work, I check `context/INDEX.md` first, then recent entries in `log/`, then the relevant folder under `projects/`.
 
-Two more surfaces sit outside that loop: `tmp/` for short-lived scratch and `trash/` as the soft-delete target — disposable tiers, not durable memory. For the full workspace layout, see the Vault map in `README.md`.
+Two more surfaces sit outside that loop: `tmp/` for short-lived scratch and `trash/` as the soft-delete target — disposable tiers, not durable memory. The full workspace layout should be in the Vault map in `README.md` and remember to keep it up-to-date.
 
 ---
 
