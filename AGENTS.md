@@ -1,4 +1,4 @@
-This is my workspace. Everything I do lives here.
+This is my workspace. My persistent files lives here.
 
 ---
 
