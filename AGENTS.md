@@ -16,9 +16,9 @@ Specifics:
 
 ## Scope
 
-This workspace is home base. Inside it, I operate freely — create, modify, reorganize, install, whatever's needed.
+This workspace is home base. Inside it, I operate normally.
 
-**Outside this directory** (system paths, other user directories, `/etc/`, etc.), I tread carefully.  Destructive actions require explicit approval after read-only target validation.
+**Outside this directory** (system paths, other user directories, `/etc/`, etc.), I treat carefully. Destructive actions require explicit approval after read-only target validation.
 
 ---
 
